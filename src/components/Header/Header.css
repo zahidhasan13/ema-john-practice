@@ -1,0 +1,30 @@
+.header{
+    height: 50px;
+    background: #1C2B35;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img{}
+.nav-bar a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar a:hover{
+    color: #da8507;
+}
